@@ -1,8 +1,5 @@
-import { faBars } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 import i from '../assets/image/i.png';
-import { Link } from "react-router-dom";
-import { useState } from "react";
 interface Data {
     email: string,
     phoneNumber:number,
@@ -20,7 +17,6 @@ interface Data {
   
   const Api = (props:Ho) =>{
  
-    const [showDetails, setShowDetails] = useState(false);
     function handleClick(e:any){
         e.preventDefault();
        
@@ -32,7 +28,7 @@ interface Data {
      
         <tbody>
             
-            {props.data.map((val,index)=>{
+            {props.data.map((val)=>{
                 return(
                     <tr key={val.id}>
                     <td>Lendsqr</td> 

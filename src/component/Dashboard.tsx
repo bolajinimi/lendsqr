@@ -12,10 +12,9 @@ import Sidebar from './Sidebar';
 const Dashboard =   ():any => {
   
   const [data, setData] = useState([]);
-  const [showDiv, setShowDiv] = useState(false); 
 
   const url:string ="https://6270020422c706a0ae70b72c.mockapi.io/lendsqr/api/v1/users";
-  const api =  axios.get(url)
+axios.get(url)
   .then(res => {
 
     setData(res.data);    
@@ -27,9 +26,9 @@ const Dashboard =   ():any => {
     x++;
     console.log(x);
     
-    if(x==1 && element){
+    if(x===1 && element){
       element.style.display="flex"
-    }if(x==2 && element){
+    }if(x===2 && element){
       element.style.display="none"
       x=0;
     }

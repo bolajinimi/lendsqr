@@ -1,5 +1,3 @@
-import React from 'react'
-import Welcome from '../assets/image/Welcome.png';
 import Animate from '../assets/image/pablo-sign-in 1.png';
 import lendsqr from '../assets/image/lendsqr.png';
 

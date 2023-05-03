@@ -1,6 +1,5 @@
-import React, { useState,useEffect } from 'react'
+import  { useState,useEffect } from 'react'
 import Header from './Header'
-import logo from '../logo.svg'
 import Sidebar from './Sidebar'
 import {useParams} from 'react-router-dom'
 import axios from 'axios'
