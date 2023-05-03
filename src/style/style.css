@@ -1,0 +1,405 @@
+h1, h2, h3, h4, h5, p {
+  background-color: 0;
+  color: #003366;
+}
+
+p {
+  font-size: 14px;
+}
+
+.sample .children1 {
+  border: 1px solid white;
+}
+
+.row {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.row .img-row {
+  width: 50%;
+  height: auto;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.row .form-row {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row .forms {
+  width: 70%;
+  justify-content: center;
+  flex-direction: column;
+}
+.row .forms h1 {
+  color: #003366;
+  font-size: 40px;
+}
+.row form {
+  width: 100%;
+  height: 300px;
+}
+.row form .form-control {
+  width: 95%;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.row form p {
+  color: #39CDCC;
+}
+.row form button {
+  width: 100%;
+  height: 50px;
+  background-color: #39CDCC;
+  border-radius: 5px;
+  border: 0px none;
+  color: white;
+  font-size: 20px;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+}
+.main header {
+  width: 100%;
+  height: 100px;
+  box-shadow: 3px 0px 3px 2px #ccc;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main header .row_docs {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main header .row_docs label {
+  width: 400px;
+  height: 47px;
+  border: 1px solid #ccc;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  padding-left: 5px;
+}
+.main header .row_docs label input {
+  width: 85%;
+  height: 40px;
+  border: 0px none;
+  outline: none;
+}
+.main header .row_docs label button {
+  width: 15%;
+  height: 100%;
+  background-color: #39CDCC;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  border: 0px none;
+}
+.main header .row_docs2 {
+  width: 40%;
+  height: 100px;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+.main header .row_docs2 .bell {
+  width: 25px !important;
+}
+.main header .row_docs2 .docs {
+  width: 50%;
+  height: 100px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.main header .row_docs2 .round {
+  width: 50;
+  height: 50px;
+  border-radius: 100px;
+  margin: 5px;
+}
+.main header .row_docs2 .adede {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+.main header .row_docs2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+.main .main_display {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.main .main_display aside {
+  width: 20%;
+  height: auto;
+  box-shadow: 3px 0px 3px 0px #ccc;
+  background-color: #fff;
+}
+.main .main_display aside p {
+  font-size: 13px;
+  color: #003366;
+  padding-left: 30px;
+}
+.main .main_display aside li {
+  list-style: none;
+  padding: 15px;
+  color: #213F7D;
+  font-size: 15px;
+  padding-left: 30px;
+}
+.main .main_display aside li .icon_shift {
+  padding-right: 10px;
+}
+.main .main_display aside li .icon_shift2 {
+  padding-left: 10px;
+}
+.main .main_display main {
+  width: 80%;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.main .main_display main .rows {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .main_display main .boxed {
+  width: 185px;
+  height: 100px;
+  padding: 30px;
+  background: #FFFFFF;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+.main .main_display main .boxed h5 {
+  font-weight: 400;
+}
+.main .main_display main .boxed .h {
+  color: #003366;
+}
+.main .main_display main .boxed h5 {
+  margin-top: 10px;
+}
+.main .main_display main .boxed .users-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DF18FF;
+  border: 0.2px solid #DF18FF;
+  border-radius: 40px;
+  opacity: 0.1;
+}
+.main .main_display main .boxed .users-icon .icon_alt {
+  font-size: 15px;
+}
+.main .main_display main .boxed .users-icon .alt {
+  color: red;
+}
+.main .main_display main .row2 {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.main .main_display main .row2 .nameDetails {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one .profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one .profileImage img {
+  border-radius: 100px;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one .profImage {
+  width: 80%;
+  height: 100px;
+  display: flex;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one .profImage .boxInsideProf {
+  width: 20%;
+  height: 80px;
+  padding-left: 30px;
+  border-right: 1px solid #ccc;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one .profImage .boxInsideProf .strike {
+  text-decoration: line-through;
+  padding-right: 5px;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one .profImage h5 {
+  margin: 0px;
+}
+.main .main_display main .row2 .nameDetails .profile-row-one .profImage h2 {
+  margin-bottom: 7px;
+}
+.main .main_display main .row2 .nameDetails .profile-row-two {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.main .main_display main .row2 .whitie {
+  background-color: white;
+}
+.main .main_display main .row2 .profile {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+.main .main_display main .row2 .profile .section1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10px;
+}
+.main .main_display main .row2 .profile .section1 .boxIndex {
+  width: 17%;
+  height: auto;
+  border-bottom: 1px solid #f8f8f8;
+  padding: 10px;
+}
+.main .main_display main .row2 .profile .section1 .boxIndex p {
+  font-size: 13px;
+}
+.main .main_display main .row2 .profile .section1 .boxIndex .strike {
+  text-decoration: line-through;
+}
+.main .main_display main .row2 .over {
+  width: 100%;
+  height: 600px;
+  overflow: scroll !important;
+  display: flex;
+}
+.main .main_display main .row2 .over .form_div {
+  width: 250px;
+  bottom: -250px;
+  background-color: white;
+  position: absolute;
+  border: 1px solid rgba(84, 95, 125, 0.14);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  display: none;
+  flex-direction: column;
+  padding: 20px;
+}
+.main .main_display main .row2 .over .form_div label {
+  padding: 5px;
+  color: #003366;
+  font-size: 14px;
+}
+.main .main_display main .row2 .over .form_div input {
+  width: 90%;
+  height: 40px;
+  padding-left: 10px;
+  margin: 5px;
+  background: #FFFFFF;
+  opacity: 0.2;
+  border: 1px solid #213F7D;
+  border-radius: 8px;
+}
+.main .main_display main .row2 .over .form_div .row_slide {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.main .main_display main .row2 .over .form_div .row_slide button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #003366;
+  border-radius: 8px;
+}
+.main .main_display main .row2 .over .form_div .row_slide .butt2 {
+  background-color: #39CDCC;
+  color: white;
+  border: 0px;
+}
+.main .main_display main .row2 table {
+  width: 100%;
+  height: auto;
+}
+.main .main_display main .row2 table th {
+  font-size: 11px;
+  text-align: left;
+  color: #003366;
+  padding: 15px;
+}
+.main .main_display main .row2 table td {
+  color: #003366;
+  font-size: 11px;
+}
+.main .main_display main .row2 table tbody tr td {
+  padding: 15px;
+  border-bottom: 1px solid #e6e2e2;
+  margin: 0px;
+}
+.main .main_display main .row2 table button {
+  width: 80px;
+  height: 30px;
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  border: 0px none;
+}
+.main .main_display main .rowHead {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main_display main .rowHead .black, .main .main_display main .rowHead .activate {
+  width: 180px;
+  margin: 5px;
+  background-color: unset;
+  height: 40px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.main .main_display main .rowHead .activate {
+  border: 2px solid #39CDCC;
+  color: #39CDCC;
+}
+.main .main_display main .rowHead .black {
+  border: 2px solid red;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
