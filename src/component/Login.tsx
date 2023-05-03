@@ -18,7 +18,7 @@ function Login() {
           <div className='forms'>
           <h1>Welcome!</h1>
           <p>Enter details to login</p>
-          <form action='/dashboard'>
+          <form action='/dashboard'> 
           <input type="text" className="form-control" placeholder="Email" />
           <input type="password" className="form-control" placeholder="Password" />
           <p>Forget Password ?</p>
