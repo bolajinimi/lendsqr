@@ -1,5 +1,6 @@
 import Animate from '../assets/image/pablo-sign-in 1.png';
 import lendsqr from '../assets/image/lendsqr.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,7 +23,9 @@ function Login() {
           <input type="text" className="form-control" placeholder="Email" />
           <input type="password" className="form-control" placeholder="Password" />
           <p>Forget Password ?</p>
+          <Link to="/dashboard">
           <button className='butt2'>Log In</button>
+          </Link>
 
           </form>
           </div>
