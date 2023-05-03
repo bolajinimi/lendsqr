@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faUsers} from '@fortawesome/free-solid-svg-icons';
 import Header from './Header';
+import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
 import axios from 'axios';
@@ -113,7 +114,11 @@ axios.get(url)
                 <th>EMAIL <img src={ii} alt={ii} /></th>
                 <th>PHONE NUMBER <img src={ii} alt={ii} /></th>
                 <th>DATE JOINED <img src={ii} alt={ii}  /></th>
-                <th>STATUS <img src={ii} alt={ii}  /></th>
+            
+                <Link to="/UserPage">
+                 <th>STATUS <img src={ii} alt={ii}  /></th>
+               </Link>
+               
                 </tr>
                 </thead>    
                         

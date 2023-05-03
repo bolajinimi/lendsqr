@@ -78,6 +78,7 @@ const UserPage = () => {
 
   return (
     <div className='main'>
+         
     <Header />
        <div className='main_display'>
          <Sidebar />
